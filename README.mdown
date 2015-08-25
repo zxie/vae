@@ -9,4 +9,5 @@ You can grab the dataset [here](http://deeplearning.net/data/mnist/mnist.pkl.gz)
 then change the path in `utils.py` accordingly.
 
 Example manifold generated:
+
 ![AEVB implementation](mnist_manifold.png)
