@@ -1,0 +1,12 @@
+Another fairly minimal implementation of variational autoencoder
+([Kingma et al., ICLR 2014](http://arxiv.org/abs/1312.6114)) in Theano.
+
+Requirements: [Theano](http://deeplearning.net/software/theano/),
+[SciPy](http://scipy.org/scipylib/index.html), and [matplotlib](http://matplotlib.org/).
+
+Example training and visualization for MNIST dataset can be found in `mnist_manifold.sh`.
+You can grab the dataset [here](http://deeplearning.net/data/mnist/mnist.pkl.gz);
+then change the path in `utils.py` accordingly.
+
+Example manifold generated:
+![AEVB implementation](mnist_manifold.png)
